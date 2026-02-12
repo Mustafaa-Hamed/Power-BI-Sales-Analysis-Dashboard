@@ -6,24 +6,24 @@ This project demonstrates an end-to-end Business Intelligence workflow using SQL
 --
 <img width="1105" height="590" alt="533305784-d9deeaae-b733-4e5c-be77-56ed17904f7c" src="https://github.com/user-attachments/assets/05301f82-e151-44a0-b855-083a8bb8bf29" />---
 
-🔹 Data Source
+# Data Source
 The dataset was extracted from a SQL Server database containing sales and order-related information.
 
-🔹 ETL Process (Power Query)
+# ETL Process (Power Query)
 Performed data transformation and preparation inside Power BI (Power Query), including:
 Data cleaning & type corrections
 Handling missing / inconsistent values
 Creating calculated columns
 Data normalization & shaping
 
-🔹 Data Modeling
+# Data Modeling
 Implemented a Star Schema following data modeling best practices:
 Fact table: Fact Order Details
 Dimension tables: Date, Due Date, Ship Date, Products, Status, Shipment, Territory
 Optimized relationships & cardinality
 Ensured analytical performance & scalability
 
-🔹 Dashboard & Analytics
+# Dashboard & Analytics
 Designed an interactive Power BI dashboard featuring:
 KPI cards (Orders, Order Details, Revenue)
 Trend analysis (Orders by Year)
@@ -31,7 +31,7 @@ Category performance breakdown
 Territory distribution (Treemap)
 Dynamic filtering (Price, Date, Territory)
 
-🔹 Key Outcomes
+# Key Outcomes
 Enabled data-driven decision-making
 Provided multi-dimensional sales insights
 Delivered a clean and scalable analytical model
